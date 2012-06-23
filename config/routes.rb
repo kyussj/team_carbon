@@ -1,4 +1,6 @@
 CarbonCalculator::Application.routes.draw do
+  get "carbon_calculator/calculator"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
